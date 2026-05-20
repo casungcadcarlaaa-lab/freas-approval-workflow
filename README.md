@@ -6,7 +6,7 @@ A web-based application designed to streamline and manage approval workflows for
 🚀 Live Demo
 
 The application is automatically deployed and accessible globally:
-* **Live Website:** [https://freas-approval-workflow.vercel.app](https://freas-approval-workflow.vercel.app)
+- Live Website: [https://freas-approval-workflow.vercel.app](https://freas-approval-workflow.vercel.app)
 
 ✨ Features
 
