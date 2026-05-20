@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F.R.E.A.S-UNC | Facility Reservation &amp; Event Approval System</title>
+  <meta name="description"
+    content="University of Nueva Caceres – Facility Reservation and Event Approval System. Streamline bookings, track approvals, and manage campus resources." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles/main.css?v=3.8" />
+</head>
+
+<body>
+  <div id="app">
+    <div class="splash-screen">
+      <div class="splash-logo">
+        <svg viewBox="0 0 80 80" width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="40" cy="40" r="38" fill="#c8102e" stroke="#8b0000" stroke-width="2" />
+          <circle cx="40" cy="40" r="30" fill="#fff" stroke="#c8102e" stroke-width="1" />
+          <text x="40" y="35" text-anchor="middle" font-size="8" font-weight="bold" fill="#1e3a5f"
+            font-family="serif">UNC</text>
+          <text x="40" y="48" text-anchor="middle" font-size="5" fill="#c8102e" font-family="serif">EST. 1948</text>
+        </svg>
+        <p>Loading F.R.E.A.S-UNC…</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast container -->
+  <div id="toast-container"></div>
+
+  <!-- Global Modal -->
+  <div id="modal-overlay" class="modal-overlay hidden">
+    <div id="modal-box" class="modal-box"></div>
+  </div>
+
+  <!-- Scripts (order matters) -->
+  <script src="js/config.js?v=3.8"></script>
+  <script src="js/auth.js?v=3.8"></script>
+  <script src="js/store.js?v=3.8"></script>
+  <script src="js/utils.js?v=3.8"></script>
+  <script src="js/components.js?v=3.8"></script>
+  <script src="js/pages/login.js?v=3.8"></script>
+  <script src="js/pages/student-dashboard.js?v=3.8"></script>
+  <script src="js/pages/student-new-request.js?v=3.8"></script>
+  <script src="js/pages/student-reservations.js?v=3.8"></script>
+  <script src="js/pages/student-events.js?v=3.8"></script>
+  <script src="js/pages/student-calendar.js?v=3.8"></script>
+  <script src="js/pages/admin-dashboard.js?v=3.8"></script>
+  <script src="js/pages/admin-reservations.js?v=3.8"></script>
+  <script src="js/pages/admin-approvals.js?v=3.8"></script>
+  <script src="js/pages/admin-facilities.js?v=3.8"></script>
+  <script src="js/pages/admin-block-dates.js?v=3.8"></script>
+  <script src="js/pages/profile.js?v=3.8"></script>
+  <script src="js/router.js?v=3.8"></script>
+  <script src="js/app.js?v=3.8"></script>
+</body>
+
+</html>
